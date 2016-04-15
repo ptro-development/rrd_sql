@@ -1,3 +1,12 @@
+# Description:
+RRD storage implemented in SQLite.
+
+
+# Packages required to install:
+```
+yum install -y sqlite
+```
+
 # To store data:
 
 ```
