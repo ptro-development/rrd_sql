@@ -92,8 +92,8 @@ VALUES({id},{time},{value})"
 def print_help():
     sys.stderr.write("""Wrong rrd command format.\n
 It should be:
-./rrd.py key command timestamp value
-./rrd.py key command [minutes|hours]
+./rrd.py key save unix_timestamp [value|NULL]
+./rrd.py key query [minutes|hours]
 
 Examples:
 ./rrd.py temperature save 1460674067 23.6
