@@ -2,8 +2,8 @@
 
 ```
 ./rrd.py temperature save 1460671800 40.6
-./rrd.py temperature save 1460672000 40.6
-./rrd.py temperature save 1460673050 100.6
+./rrd.py temperature save 1460672000 35.6
+./rrd.py temperature save 1460673050 13.6
 ./rrd.py temperature save 1460673160 NULL
 ```
 
